@@ -7,5 +7,6 @@ public class Aula4Test extends TestBase {
     public void aula4(){
         HomePO homePO = new HomePO(driver);
         homePO.aceitarTermos();
+        logger.debug("camargo aceitou os termos");
     }
 }
