@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration advertiser="multicastdns">
+    ...
+</Configuration>
+<Appenders>
+<File name="File1" fileName="output.log" bufferedIO="false" advertiseURI="file://output.log" advertise="true">
+    ...
+</File>
+</Appenders>
