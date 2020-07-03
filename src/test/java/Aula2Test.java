@@ -1,9 +1,10 @@
 import org.junit.Test;
+import support.TestBase;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Aula2Test {
+public class Aula2Test extends TestBase {
     @Test
     public void aula2(){
         LoginPO login = new LoginPO("Diego" , 123);
